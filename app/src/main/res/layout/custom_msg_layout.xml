@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile_image"
+        android:layout_marginTop="10dp"
+        android:id="@+id/msg_profile_img"
+        />
+
+    <TextView
+        android:id="@+id/reciever_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/msg_profile_img"
+        android:background="@drawable/reciever_msg_container"
+        android:padding="10dp"
+        android:textSize="16sp"
+        tools:text="Hello there"
+        android:textColor="@android:color/primary_text_light"/>
+
+    <TextView
+        android:id="@+id/sender_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sender_msg_container"
+        android:padding="10dp"
+        android:textSize="16sp"
+        tools:text="I'm fine"
+        android:textColor="@android:color/primary_text_dark"/>
+
+        
+
+</RelativeLayout>

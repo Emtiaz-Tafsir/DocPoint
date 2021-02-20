@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "652623803929",
+    "project_id": "docpoint-5e5e6",
+    "storage_bucket": "docpoint-5e5e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652623803929:android:b953eb77aa0f57a03b9c88",
+        "android_client_info": {
+          "package_name": "demo.emtiaztafsir.docpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652623803929-1q5quaj1b4jj60m9q72u0mf4mttiolat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.emtiaztafsir.docpoint",
+            "certificate_hash": "596ef325f61ef5ad4819c1f263a4f9f011d3f682"
+          }
+        },
+        {
+          "client_id": "652623803929-dqvp1ikiqfin1jt5js1eso1qe5k9l926.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg0N4QiB-QLnS_2T_aJgEIwliO8ld4oIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652623803929-dqvp1ikiqfin1jt5js1eso1qe5k9l926.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
